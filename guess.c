@@ -12,7 +12,7 @@ int main(void){
            "You have %d chances",high,chance);
 
     srand(time(NULL)); //use current time as seed for random generator
-    int secret = rand();
+    int secret = rand()%high + 1;
 
     while(chance > 0) {
 

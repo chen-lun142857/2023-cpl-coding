@@ -73,6 +73,39 @@ build hello.exe: C_EXECUTABLE_LINKER__hello_Debug CMakeFiles/hello.dir/hello.c.o
   TARGET_IMPLIB = libhello.dll.a
   TARGET_PDB = hello.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target guess
+
+
+#############################################
+# Order-only phony target for guess
+
+build cmake_object_order_depends_target_guess: phony || CMakeFiles/guess.dir
+
+build CMakeFiles/guess.dir/guess.c.obj: C_COMPILER__guess_unscanned_Debug E$:/codes/2023-cpl-coding/guess.c || cmake_object_order_depends_target_guess
+  DEP_FILE = CMakeFiles\guess.dir\guess.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\guess.dir
+  OBJECT_FILE_DIR = CMakeFiles\guess.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target guess
+
+
+#############################################
+# Link the executable guess.exe
+
+build guess.exe: C_EXECUTABLE_LINKER__guess_Debug CMakeFiles/guess.dir/guess.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\guess.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = guess.exe
+  TARGET_IMPLIB = libguess.dll.a
+  TARGET_PDB = guess.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -99,6 +132,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build guess: phony guess.exe
+
 build hello: phony hello.exe
 
 # =============================================================================
@@ -109,7 +144,7 @@ build hello: phony hello.exe
 #############################################
 # Folder: E:/codes/2023-cpl-coding/cmake-build-debug
 
-build all: phony hello.exe
+build all: phony hello.exe guess.exe
 
 # =============================================================================
 # Built-in targets

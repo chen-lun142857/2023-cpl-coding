@@ -1,7 +1,6 @@
 //
 // Created by user on 2023/9/16.
 //
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -14,5 +13,25 @@ int main(void){
 
     srand(time(NULL)); //use current time as seed for random generator
     int secret = rand();
+
+    while(chance > 0) {
+
+
+        printf("Enter your guess.\n");
+        int guess;
+        scanf("%d", &guess);
+
+        if (guess == secret) {
+            printf("You Win!\n");
+            break;
+        } else if (guess > secret) {
+            printf(("guess > secret\n"));
+        } else {
+            printf("guess < secret\n");
+        }
+        chance--;
+    }
+
+
     return 0;
 }

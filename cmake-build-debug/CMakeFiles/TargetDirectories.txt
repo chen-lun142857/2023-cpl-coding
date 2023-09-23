@@ -1,4 +1,10 @@
 E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/hello.dir
 E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/guess.dir
+E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/homework1-1.dir
+E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/homework1-2.dir
+E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/homework1-3.dir
+E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/homework1-4.dir
+E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/homework1-5.dir
+E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/homework1-6.dir
 E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/rebuild_cache.dir

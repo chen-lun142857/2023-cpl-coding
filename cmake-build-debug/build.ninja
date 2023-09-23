@@ -106,6 +106,204 @@ build guess.exe: C_EXECUTABLE_LINKER__guess_Debug CMakeFiles/guess.dir/guess.c.o
   TARGET_IMPLIB = libguess.dll.a
   TARGET_PDB = guess.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target homework1-1
+
+
+#############################################
+# Order-only phony target for homework1-1
+
+build cmake_object_order_depends_target_homework1-1: phony || CMakeFiles/homework1-1.dir
+
+build CMakeFiles/homework1-1.dir/homework1-1.c.obj: C_COMPILER__homework1-1_unscanned_Debug E$:/codes/2023-cpl-coding/homework1-1.c || cmake_object_order_depends_target_homework1-1
+  DEP_FILE = CMakeFiles\homework1-1.dir\homework1-1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\homework1-1.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework1-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target homework1-1
+
+
+#############################################
+# Link the executable homework1-1.exe
+
+build homework1-1.exe: C_EXECUTABLE_LINKER__homework1-1_Debug CMakeFiles/homework1-1.dir/homework1-1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\homework1-1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework1-1.exe
+  TARGET_IMPLIB = libhomework1-1.dll.a
+  TARGET_PDB = homework1-1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target homework1-2
+
+
+#############################################
+# Order-only phony target for homework1-2
+
+build cmake_object_order_depends_target_homework1-2: phony || CMakeFiles/homework1-2.dir
+
+build CMakeFiles/homework1-2.dir/homework1-2.c.obj: C_COMPILER__homework1-2_unscanned_Debug E$:/codes/2023-cpl-coding/homework1-2.c || cmake_object_order_depends_target_homework1-2
+  DEP_FILE = CMakeFiles\homework1-2.dir\homework1-2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\homework1-2.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework1-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target homework1-2
+
+
+#############################################
+# Link the executable homework1-2.exe
+
+build homework1-2.exe: C_EXECUTABLE_LINKER__homework1-2_Debug CMakeFiles/homework1-2.dir/homework1-2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\homework1-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework1-2.exe
+  TARGET_IMPLIB = libhomework1-2.dll.a
+  TARGET_PDB = homework1-2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target homework1-3
+
+
+#############################################
+# Order-only phony target for homework1-3
+
+build cmake_object_order_depends_target_homework1-3: phony || CMakeFiles/homework1-3.dir
+
+build CMakeFiles/homework1-3.dir/homework1-3.c.obj: C_COMPILER__homework1-3_unscanned_Debug E$:/codes/2023-cpl-coding/homework1-3.c || cmake_object_order_depends_target_homework1-3
+  DEP_FILE = CMakeFiles\homework1-3.dir\homework1-3.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\homework1-3.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework1-3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target homework1-3
+
+
+#############################################
+# Link the executable homework1-3.exe
+
+build homework1-3.exe: C_EXECUTABLE_LINKER__homework1-3_Debug CMakeFiles/homework1-3.dir/homework1-3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\homework1-3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework1-3.exe
+  TARGET_IMPLIB = libhomework1-3.dll.a
+  TARGET_PDB = homework1-3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target homework1-4
+
+
+#############################################
+# Order-only phony target for homework1-4
+
+build cmake_object_order_depends_target_homework1-4: phony || CMakeFiles/homework1-4.dir
+
+build CMakeFiles/homework1-4.dir/homework1-4.c.obj: C_COMPILER__homework1-4_unscanned_Debug E$:/codes/2023-cpl-coding/homework1-4.c || cmake_object_order_depends_target_homework1-4
+  DEP_FILE = CMakeFiles\homework1-4.dir\homework1-4.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\homework1-4.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework1-4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target homework1-4
+
+
+#############################################
+# Link the executable homework1-4.exe
+
+build homework1-4.exe: C_EXECUTABLE_LINKER__homework1-4_Debug CMakeFiles/homework1-4.dir/homework1-4.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\homework1-4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework1-4.exe
+  TARGET_IMPLIB = libhomework1-4.dll.a
+  TARGET_PDB = homework1-4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target homework1-5
+
+
+#############################################
+# Order-only phony target for homework1-5
+
+build cmake_object_order_depends_target_homework1-5: phony || CMakeFiles/homework1-5.dir
+
+build CMakeFiles/homework1-5.dir/homework1-5.c.obj: C_COMPILER__homework1-5_unscanned_Debug E$:/codes/2023-cpl-coding/homework1-5.c || cmake_object_order_depends_target_homework1-5
+  DEP_FILE = CMakeFiles\homework1-5.dir\homework1-5.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\homework1-5.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework1-5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target homework1-5
+
+
+#############################################
+# Link the executable homework1-5.exe
+
+build homework1-5.exe: C_EXECUTABLE_LINKER__homework1-5_Debug CMakeFiles/homework1-5.dir/homework1-5.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\homework1-5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework1-5.exe
+  TARGET_IMPLIB = libhomework1-5.dll.a
+  TARGET_PDB = homework1-5.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target homework1-6
+
+
+#############################################
+# Order-only phony target for homework1-6
+
+build cmake_object_order_depends_target_homework1-6: phony || CMakeFiles/homework1-6.dir
+
+build CMakeFiles/homework1-6.dir/homework1-6.c.obj: C_COMPILER__homework1-6_unscanned_Debug E$:/codes/2023-cpl-coding/homework1-6.c || cmake_object_order_depends_target_homework1-6
+  DEP_FILE = CMakeFiles\homework1-6.dir\homework1-6.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\homework1-6.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework1-6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target homework1-6
+
+
+#############################################
+# Link the executable homework1-6.exe
+
+build homework1-6.exe: C_EXECUTABLE_LINKER__homework1-6_Debug CMakeFiles/homework1-6.dir/homework1-6.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\homework1-6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework1-6.exe
+  TARGET_IMPLIB = libhomework1-6.dll.a
+  TARGET_PDB = homework1-6.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,6 +334,18 @@ build guess: phony guess.exe
 
 build hello: phony hello.exe
 
+build homework1-1: phony homework1-1.exe
+
+build homework1-2: phony homework1-2.exe
+
+build homework1-3: phony homework1-3.exe
+
+build homework1-4: phony homework1-4.exe
+
+build homework1-5: phony homework1-5.exe
+
+build homework1-6: phony homework1-6.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +354,7 @@ build hello: phony hello.exe
 #############################################
 # Folder: E:/codes/2023-cpl-coding/cmake-build-debug
 
-build all: phony hello.exe guess.exe
+build all: phony hello.exe guess.exe homework1-1.exe homework1-2.exe homework1-3.exe homework1-4.exe homework1-5.exe homework1-6.exe
 
 # =============================================================================
 # Built-in targets

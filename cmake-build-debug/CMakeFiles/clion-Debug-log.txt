@@ -1,4 +1,10 @@
 "D:\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/CLion 2023.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S E:\codes\2023-cpl-coding -B E:\codes\2023-cpl-coding\cmake-build-debug
--- Configuring done (0.6s)
--- Generating done (0.0s)
--- Build files have been written to: E:/codes/2023-cpl-coding/cmake-build-debug
+CMake Error at CMakeLists.txt:8 (add_subdirectory):
+  The source directory
+
+    E:/codes/2023-cpl-coding/1-types-io
+
+  does not contain a CMakeLists.txt file.
+
+
+-- Configuring incomplete, errors occurred!

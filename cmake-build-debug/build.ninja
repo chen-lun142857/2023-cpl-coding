@@ -41,72 +41,6 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = E$:/codes/2023-cpl-coding/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target hello
-
-
-#############################################
-# Order-only phony target for hello
-
-build cmake_object_order_depends_target_hello: phony || CMakeFiles/hello.dir
-
-build CMakeFiles/hello.dir/0-intro/hello.c.obj: C_COMPILER__hello_unscanned_Debug E$:/codes/2023-cpl-coding/0-intro/hello.c || cmake_object_order_depends_target_hello
-  DEP_FILE = CMakeFiles\hello.dir\0-intro\hello.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\hello.dir
-  OBJECT_FILE_DIR = CMakeFiles\hello.dir\0-intro
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target hello
-
-
-#############################################
-# Link the executable hello.exe
-
-build hello.exe: C_EXECUTABLE_LINKER__hello_Debug CMakeFiles/hello.dir/0-intro/hello.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\hello.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = hello.exe
-  TARGET_IMPLIB = libhello.dll.a
-  TARGET_PDB = hello.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target guess
-
-
-#############################################
-# Order-only phony target for guess
-
-build cmake_object_order_depends_target_guess: phony || CMakeFiles/guess.dir
-
-build CMakeFiles/guess.dir/0-intro/guess.c.obj: C_COMPILER__guess_unscanned_Debug E$:/codes/2023-cpl-coding/0-intro/guess.c || cmake_object_order_depends_target_guess
-  DEP_FILE = CMakeFiles\guess.dir\0-intro\guess.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\guess.dir
-  OBJECT_FILE_DIR = CMakeFiles\guess.dir\0-intro
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target guess
-
-
-#############################################
-# Link the executable guess.exe
-
-build guess.exe: C_EXECUTABLE_LINKER__guess_Debug CMakeFiles/guess.dir/0-intro/guess.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\guess.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = guess.exe
-  TARGET_IMPLIB = libguess.dll.a
-  TARGET_PDB = guess.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target homework1-1
 
 
@@ -115,11 +49,11 @@ build guess.exe: C_EXECUTABLE_LINKER__guess_Debug CMakeFiles/guess.dir/0-intro/g
 
 build cmake_object_order_depends_target_homework1-1: phony || CMakeFiles/homework1-1.dir
 
-build CMakeFiles/homework1-1.dir/homework1-1.c.obj: C_COMPILER__homework1-1_unscanned_Debug E$:/codes/2023-cpl-coding/homework1-1.c || cmake_object_order_depends_target_homework1-1
-  DEP_FILE = CMakeFiles\homework1-1.dir\homework1-1.c.obj.d
+build CMakeFiles/homework1-1.dir/homework/homework1-1.c.obj: C_COMPILER__homework1-1_unscanned_Debug E$:/codes/2023-cpl-coding/homework/homework1-1.c || cmake_object_order_depends_target_homework1-1
+  DEP_FILE = CMakeFiles\homework1-1.dir\homework\homework1-1.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\homework1-1.dir
-  OBJECT_FILE_DIR = CMakeFiles\homework1-1.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework1-1.dir\homework
 
 
 # =============================================================================
@@ -129,7 +63,7 @@ build CMakeFiles/homework1-1.dir/homework1-1.c.obj: C_COMPILER__homework1-1_unsc
 #############################################
 # Link the executable homework1-1.exe
 
-build homework1-1.exe: C_EXECUTABLE_LINKER__homework1-1_Debug CMakeFiles/homework1-1.dir/homework1-1.c.obj
+build homework1-1.exe: C_EXECUTABLE_LINKER__homework1-1_Debug CMakeFiles/homework1-1.dir/homework/homework1-1.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\homework1-1.dir
@@ -148,11 +82,11 @@ build homework1-1.exe: C_EXECUTABLE_LINKER__homework1-1_Debug CMakeFiles/homewor
 
 build cmake_object_order_depends_target_homework1-2: phony || CMakeFiles/homework1-2.dir
 
-build CMakeFiles/homework1-2.dir/homework1-2.c.obj: C_COMPILER__homework1-2_unscanned_Debug E$:/codes/2023-cpl-coding/homework1-2.c || cmake_object_order_depends_target_homework1-2
-  DEP_FILE = CMakeFiles\homework1-2.dir\homework1-2.c.obj.d
+build CMakeFiles/homework1-2.dir/homework/homework1-2.c.obj: C_COMPILER__homework1-2_unscanned_Debug E$:/codes/2023-cpl-coding/homework/homework1-2.c || cmake_object_order_depends_target_homework1-2
+  DEP_FILE = CMakeFiles\homework1-2.dir\homework\homework1-2.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\homework1-2.dir
-  OBJECT_FILE_DIR = CMakeFiles\homework1-2.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework1-2.dir\homework
 
 
 # =============================================================================
@@ -162,7 +96,7 @@ build CMakeFiles/homework1-2.dir/homework1-2.c.obj: C_COMPILER__homework1-2_unsc
 #############################################
 # Link the executable homework1-2.exe
 
-build homework1-2.exe: C_EXECUTABLE_LINKER__homework1-2_Debug CMakeFiles/homework1-2.dir/homework1-2.c.obj
+build homework1-2.exe: C_EXECUTABLE_LINKER__homework1-2_Debug CMakeFiles/homework1-2.dir/homework/homework1-2.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\homework1-2.dir
@@ -181,11 +115,11 @@ build homework1-2.exe: C_EXECUTABLE_LINKER__homework1-2_Debug CMakeFiles/homewor
 
 build cmake_object_order_depends_target_homework1-3: phony || CMakeFiles/homework1-3.dir
 
-build CMakeFiles/homework1-3.dir/homework1-3.c.obj: C_COMPILER__homework1-3_unscanned_Debug E$:/codes/2023-cpl-coding/homework1-3.c || cmake_object_order_depends_target_homework1-3
-  DEP_FILE = CMakeFiles\homework1-3.dir\homework1-3.c.obj.d
+build CMakeFiles/homework1-3.dir/homework/homework1-3.c.obj: C_COMPILER__homework1-3_unscanned_Debug E$:/codes/2023-cpl-coding/homework/homework1-3.c || cmake_object_order_depends_target_homework1-3
+  DEP_FILE = CMakeFiles\homework1-3.dir\homework\homework1-3.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\homework1-3.dir
-  OBJECT_FILE_DIR = CMakeFiles\homework1-3.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework1-3.dir\homework
 
 
 # =============================================================================
@@ -195,7 +129,7 @@ build CMakeFiles/homework1-3.dir/homework1-3.c.obj: C_COMPILER__homework1-3_unsc
 #############################################
 # Link the executable homework1-3.exe
 
-build homework1-3.exe: C_EXECUTABLE_LINKER__homework1-3_Debug CMakeFiles/homework1-3.dir/homework1-3.c.obj
+build homework1-3.exe: C_EXECUTABLE_LINKER__homework1-3_Debug CMakeFiles/homework1-3.dir/homework/homework1-3.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\homework1-3.dir
@@ -214,11 +148,11 @@ build homework1-3.exe: C_EXECUTABLE_LINKER__homework1-3_Debug CMakeFiles/homewor
 
 build cmake_object_order_depends_target_homework1-4: phony || CMakeFiles/homework1-4.dir
 
-build CMakeFiles/homework1-4.dir/homework1-4.c.obj: C_COMPILER__homework1-4_unscanned_Debug E$:/codes/2023-cpl-coding/homework1-4.c || cmake_object_order_depends_target_homework1-4
-  DEP_FILE = CMakeFiles\homework1-4.dir\homework1-4.c.obj.d
+build CMakeFiles/homework1-4.dir/homework/homework1-4.c.obj: C_COMPILER__homework1-4_unscanned_Debug E$:/codes/2023-cpl-coding/homework/homework1-4.c || cmake_object_order_depends_target_homework1-4
+  DEP_FILE = CMakeFiles\homework1-4.dir\homework\homework1-4.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\homework1-4.dir
-  OBJECT_FILE_DIR = CMakeFiles\homework1-4.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework1-4.dir\homework
 
 
 # =============================================================================
@@ -228,7 +162,7 @@ build CMakeFiles/homework1-4.dir/homework1-4.c.obj: C_COMPILER__homework1-4_unsc
 #############################################
 # Link the executable homework1-4.exe
 
-build homework1-4.exe: C_EXECUTABLE_LINKER__homework1-4_Debug CMakeFiles/homework1-4.dir/homework1-4.c.obj
+build homework1-4.exe: C_EXECUTABLE_LINKER__homework1-4_Debug CMakeFiles/homework1-4.dir/homework/homework1-4.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\homework1-4.dir
@@ -247,11 +181,11 @@ build homework1-4.exe: C_EXECUTABLE_LINKER__homework1-4_Debug CMakeFiles/homewor
 
 build cmake_object_order_depends_target_homework1-5: phony || CMakeFiles/homework1-5.dir
 
-build CMakeFiles/homework1-5.dir/homework1-5.c.obj: C_COMPILER__homework1-5_unscanned_Debug E$:/codes/2023-cpl-coding/homework1-5.c || cmake_object_order_depends_target_homework1-5
-  DEP_FILE = CMakeFiles\homework1-5.dir\homework1-5.c.obj.d
+build CMakeFiles/homework1-5.dir/homework/homework1-5.c.obj: C_COMPILER__homework1-5_unscanned_Debug E$:/codes/2023-cpl-coding/homework/homework1-5.c || cmake_object_order_depends_target_homework1-5
+  DEP_FILE = CMakeFiles\homework1-5.dir\homework\homework1-5.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\homework1-5.dir
-  OBJECT_FILE_DIR = CMakeFiles\homework1-5.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework1-5.dir\homework
 
 
 # =============================================================================
@@ -261,7 +195,7 @@ build CMakeFiles/homework1-5.dir/homework1-5.c.obj: C_COMPILER__homework1-5_unsc
 #############################################
 # Link the executable homework1-5.exe
 
-build homework1-5.exe: C_EXECUTABLE_LINKER__homework1-5_Debug CMakeFiles/homework1-5.dir/homework1-5.c.obj
+build homework1-5.exe: C_EXECUTABLE_LINKER__homework1-5_Debug CMakeFiles/homework1-5.dir/homework/homework1-5.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\homework1-5.dir
@@ -280,11 +214,11 @@ build homework1-5.exe: C_EXECUTABLE_LINKER__homework1-5_Debug CMakeFiles/homewor
 
 build cmake_object_order_depends_target_homework1-6: phony || CMakeFiles/homework1-6.dir
 
-build CMakeFiles/homework1-6.dir/homework1-6.c.obj: C_COMPILER__homework1-6_unscanned_Debug E$:/codes/2023-cpl-coding/homework1-6.c || cmake_object_order_depends_target_homework1-6
-  DEP_FILE = CMakeFiles\homework1-6.dir\homework1-6.c.obj.d
+build CMakeFiles/homework1-6.dir/homework/homework1-6.c.obj: C_COMPILER__homework1-6_unscanned_Debug E$:/codes/2023-cpl-coding/homework/homework1-6.c || cmake_object_order_depends_target_homework1-6
+  DEP_FILE = CMakeFiles\homework1-6.dir\homework\homework1-6.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\homework1-6.dir
-  OBJECT_FILE_DIR = CMakeFiles\homework1-6.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework1-6.dir\homework
 
 
 # =============================================================================
@@ -294,7 +228,7 @@ build CMakeFiles/homework1-6.dir/homework1-6.c.obj: C_COMPILER__homework1-6_unsc
 #############################################
 # Link the executable homework1-6.exe
 
-build homework1-6.exe: C_EXECUTABLE_LINKER__homework1-6_Debug CMakeFiles/homework1-6.dir/homework1-6.c.obj
+build homework1-6.exe: C_EXECUTABLE_LINKER__homework1-6_Debug CMakeFiles/homework1-6.dir/homework/homework1-6.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\homework1-6.dir
@@ -313,11 +247,11 @@ build homework1-6.exe: C_EXECUTABLE_LINKER__homework1-6_Debug CMakeFiles/homewor
 
 build cmake_object_order_depends_target_homework1-7: phony || CMakeFiles/homework1-7.dir
 
-build CMakeFiles/homework1-7.dir/homework1-7.c.obj: C_COMPILER__homework1-7_unscanned_Debug E$:/codes/2023-cpl-coding/homework1-7.c || cmake_object_order_depends_target_homework1-7
-  DEP_FILE = CMakeFiles\homework1-7.dir\homework1-7.c.obj.d
+build CMakeFiles/homework1-7.dir/homework/homework1-7.c.obj: C_COMPILER__homework1-7_unscanned_Debug E$:/codes/2023-cpl-coding/homework/homework1-7.c || cmake_object_order_depends_target_homework1-7
+  DEP_FILE = CMakeFiles\homework1-7.dir\homework\homework1-7.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\homework1-7.dir
-  OBJECT_FILE_DIR = CMakeFiles\homework1-7.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework1-7.dir\homework
 
 
 # =============================================================================
@@ -327,7 +261,7 @@ build CMakeFiles/homework1-7.dir/homework1-7.c.obj: C_COMPILER__homework1-7_unsc
 #############################################
 # Link the executable homework1-7.exe
 
-build homework1-7.exe: C_EXECUTABLE_LINKER__homework1-7_Debug CMakeFiles/homework1-7.dir/homework1-7.c.obj
+build homework1-7.exe: C_EXECUTABLE_LINKER__homework1-7_Debug CMakeFiles/homework1-7.dir/homework/homework1-7.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\homework1-7.dir
@@ -346,11 +280,11 @@ build homework1-7.exe: C_EXECUTABLE_LINKER__homework1-7_Debug CMakeFiles/homewor
 
 build cmake_object_order_depends_target_homeworktest: phony || CMakeFiles/homeworktest.dir
 
-build CMakeFiles/homeworktest.dir/homeworktest.c.obj: C_COMPILER__homeworktest_unscanned_Debug E$:/codes/2023-cpl-coding/homeworktest.c || cmake_object_order_depends_target_homeworktest
-  DEP_FILE = CMakeFiles\homeworktest.dir\homeworktest.c.obj.d
+build CMakeFiles/homeworktest.dir/homework/homeworktest.c.obj: C_COMPILER__homeworktest_unscanned_Debug E$:/codes/2023-cpl-coding/homework/homeworktest.c || cmake_object_order_depends_target_homeworktest
+  DEP_FILE = CMakeFiles\homeworktest.dir\homework\homeworktest.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\homeworktest.dir
-  OBJECT_FILE_DIR = CMakeFiles\homeworktest.dir
+  OBJECT_FILE_DIR = CMakeFiles\homeworktest.dir\homework
 
 
 # =============================================================================
@@ -360,7 +294,7 @@ build CMakeFiles/homeworktest.dir/homeworktest.c.obj: C_COMPILER__homeworktest_u
 #############################################
 # Link the executable homeworktest.exe
 
-build homeworktest.exe: C_EXECUTABLE_LINKER__homeworktest_Debug CMakeFiles/homeworktest.dir/homeworktest.c.obj
+build homeworktest.exe: C_EXECUTABLE_LINKER__homeworktest_Debug CMakeFiles/homeworktest.dir/homework/homeworktest.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\homeworktest.dir
@@ -394,11 +328,137 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/codes/2023-cpl-coding/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hello
+
+
+#############################################
+# Order-only phony target for hello
+
+build cmake_object_order_depends_target_hello: phony || 0-intro/CMakeFiles/hello.dir
+
+build 0-intro/CMakeFiles/hello.dir/hello.c.obj: C_COMPILER__hello_unscanned_Debug E$:/codes/2023-cpl-coding/0-intro/hello.c || cmake_object_order_depends_target_hello
+  DEP_FILE = 0-intro\CMakeFiles\hello.dir\hello.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 0-intro\CMakeFiles\hello.dir
+  OBJECT_FILE_DIR = 0-intro\CMakeFiles\hello.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hello
+
+
+#############################################
+# Link the executable 0-intro\hello.exe
+
+build 0-intro/hello.exe: C_EXECUTABLE_LINKER__hello_Debug 0-intro/CMakeFiles/hello.dir/hello.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 0-intro\CMakeFiles\hello.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 0-intro\hello.exe
+  TARGET_IMPLIB = 0-intro\libhello.dll.a
+  TARGET_PDB = hello.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target guess
+
+
+#############################################
+# Order-only phony target for guess
+
+build cmake_object_order_depends_target_guess: phony || 0-intro/CMakeFiles/guess.dir
+
+build 0-intro/CMakeFiles/guess.dir/guess.c.obj: C_COMPILER__guess_unscanned_Debug E$:/codes/2023-cpl-coding/0-intro/guess.c || cmake_object_order_depends_target_guess
+  DEP_FILE = 0-intro\CMakeFiles\guess.dir\guess.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 0-intro\CMakeFiles\guess.dir
+  OBJECT_FILE_DIR = 0-intro\CMakeFiles\guess.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target guess
+
+
+#############################################
+# Link the executable 0-intro\guess.exe
+
+build 0-intro/guess.exe: C_EXECUTABLE_LINKER__guess_Debug 0-intro/CMakeFiles/guess.dir/guess.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 0-intro\CMakeFiles\guess.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 0-intro\guess.exe
+  TARGET_IMPLIB = 0-intro\libguess.dll.a
+  TARGET_PDB = guess.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 0-intro/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\2023-cpl-coding\cmake-build-debug\0-intro && "D:\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 0-intro/edit_cache: phony 0-intro/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 0-intro/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\2023-cpl-coding\cmake-build-debug\0-intro && "D:\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\codes\2023-cpl-coding -BE:\codes\2023-cpl-coding\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 0-intro/rebuild_cache: phony 0-intro/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/codes/2023-cpl-coding/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build homework/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\2023-cpl-coding\cmake-build-debug\homework && "D:\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build homework/edit_cache: phony homework/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build homework/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\codes\2023-cpl-coding\cmake-build-debug\homework && "D:\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\codes\2023-cpl-coding -BE:\codes\2023-cpl-coding\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build homework/rebuild_cache: phony homework/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
-build guess: phony guess.exe
+build guess: phony 0-intro/guess.exe
 
-build hello: phony hello.exe
+build guess.exe: phony 0-intro/guess.exe
+
+build hello: phony 0-intro/hello.exe
+
+build hello.exe: phony 0-intro/hello.exe
 
 build homework1-1: phony homework1-1.exe
 
@@ -424,7 +484,21 @@ build homeworktest: phony homeworktest.exe
 #############################################
 # Folder: E:/codes/2023-cpl-coding/cmake-build-debug
 
-build all: phony hello.exe guess.exe homework1-1.exe homework1-2.exe homework1-3.exe homework1-4.exe homework1-5.exe homework1-6.exe homework1-7.exe homeworktest.exe
+build all: phony homework1-1.exe homework1-2.exe homework1-3.exe homework1-4.exe homework1-5.exe homework1-6.exe homework1-7.exe homeworktest.exe 0-intro/all homework/all
+
+# =============================================================================
+
+#############################################
+# Folder: E:/codes/2023-cpl-coding/cmake-build-debug/0-intro
+
+build 0-intro/all: phony 0-intro/hello.exe 0-intro/guess.exe
+
+# =============================================================================
+
+#############################################
+# Folder: E:/codes/2023-cpl-coding/cmake-build-debug/homework
+
+build homework/all: phony
 
 # =============================================================================
 # Built-in targets
@@ -433,14 +507,14 @@ build all: phony hello.exe guess.exe homework1-1.exe homework1-2.exe homework1-3
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake E$:/codes/2023-cpl-coding/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake E$:/codes/2023-cpl-coding/0-intro/CMakeLists.txt E$:/codes/2023-cpl-coding/CMakeLists.txt E$:/codes/2023-cpl-coding/homework/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake E$:/codes/2023-cpl-coding/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/CLion$ 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake E$:/codes/2023-cpl-coding/0-intro/CMakeLists.txt E$:/codes/2023-cpl-coding/CMakeLists.txt E$:/codes/2023-cpl-coding/homework/CMakeLists.txt: phony
 
 
 #############################################

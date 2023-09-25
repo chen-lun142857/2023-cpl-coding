@@ -6,5 +6,7 @@ E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/homework1-3.dir
 E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/homework1-4.dir
 E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/homework1-5.dir
 E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/homework1-6.dir
+E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/homework1-7.dir
+E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/homeworktest.dir
 E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/codes/2023-cpl-coding/cmake-build-debug/CMakeFiles/rebuild_cache.dir
